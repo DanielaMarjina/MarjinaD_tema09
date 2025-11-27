@@ -1,0 +1,23 @@
+﻿1. Utilizarea imaginilor cu transparenta si fara
+
+Imaginile fara transparenta sunt afisate complet opace pe obiect, iar textura acopera intreaga suprafata.
+Imaginile cu transparenta permit afisarea fundalului prin zonele transparente, dar pentru acest lucru este necesara activarea blending-ului in OpenGL.
+Transparanta face scena mai realista, dar necesita setari suplimentare.
+
+2. Formate de imagine utilizate pentru texturare in OpenGL
+
+OpenGL poate folosi mai multe formate de imagine, in functie de biblioteca de incarcare.
+Cele mai comune sunt JPG, PNG si BMP.
+PNG este preferat deoarece suporta canal alpha (transparenta), iar JPG este folosit pentru texturi fara transparenta.
+
+3. Modificarea culorii obiectului texturat prin RGB
+
+Modificarea canalelor RGB afecteaza culoarea finala a texturii.
+Textura este combinata cu culoarea obiectului, iar aceasta poate deveni mai inchisa, mai deschisa sau colorata diferit.
+Daca obiectul este alb, textura ramane neschimbata.
+
+4. Diferente intre iluminare activata si dezactivata
+
+Cu iluminarea dezactivata, textura este afisata fara umbre sau efecte de lumina.
+Cu iluminarea activata, textura este influentata de sursele de lumina, apar umbre si diferente de intensitate.
+Iluminarea face scena mai realista, dar mai complexa.
