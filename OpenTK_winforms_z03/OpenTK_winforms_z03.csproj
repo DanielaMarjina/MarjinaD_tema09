@@ -99,6 +99,7 @@
     <Content Include="bin\Debug\img2.png" />
     <Content Include="bin\Debug\img3.png" />
     <Content Include="bin\Debug\img4.png" />
+    <Content Include="raspunsuri_teorie.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
